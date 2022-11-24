@@ -14,6 +14,8 @@
 		37B83C82292BE84800AA0F70 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B83C81292BE84800AA0F70 /* TextExample.swift */; };
 		37B83C84292BF0A800AA0F70 /* InitializerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B83C83292BF0A800AA0F70 /* InitializerExample.swift */; };
 		37B83C86292C030D00AA0F70 /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B83C85292C030D00AA0F70 /* ForEachExample.swift */; };
+		37B83C88292C059E00AA0F70 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B83C87292C059E00AA0F70 /* ScrollViewExample.swift */; };
+		37CACA3F293014FD00F1DCA9 /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CACA3E293014FD00F1DCA9 /* BindingExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		37B83C81292BE84800AA0F70 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 		37B83C83292BF0A800AA0F70 /* InitializerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerExample.swift; sourceTree = "<group>"; };
 		37B83C85292C030D00AA0F70 /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		37B83C87292C059E00AA0F70 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		37CACA3E293014FD00F1DCA9 /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +66,10 @@
 				37B83C81292BE84800AA0F70 /* TextExample.swift */,
 				37B83C83292BF0A800AA0F70 /* InitializerExample.swift */,
 				37B83C85292C030D00AA0F70 /* ForEachExample.swift */,
+				37CACA3E293014FD00F1DCA9 /* BindingExample.swift */,
 				37B83C77292BE75000AA0F70 /* Assets.xcassets */,
 				37B83C79292BE75000AA0F70 /* Preview Content */,
+				37B83C87292C059E00AA0F70 /* ScrollViewExample.swift */,
 			);
 			path = SwiftUILearnBasic;
 			sourceTree = "<group>";
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B83C88292C059E00AA0F70 /* ScrollViewExample.swift in Sources */,
 				37B83C76292BE74E00AA0F70 /* ContentView.swift in Sources */,
 				37B83C82292BE84800AA0F70 /* TextExample.swift in Sources */,
 				37B83C74292BE74E00AA0F70 /* SwiftUILearnBasicApp.swift in Sources */,
 				37B83C86292C030D00AA0F70 /* ForEachExample.swift in Sources */,
+				37CACA3F293014FD00F1DCA9 /* BindingExample.swift in Sources */,
 				37B83C84292BF0A800AA0F70 /* InitializerExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
